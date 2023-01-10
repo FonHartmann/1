@@ -222,6 +222,7 @@ body {
 .introducing__plate {
     display: flex;
     justify-content: space-between;
+    column-gap: 32px;
     margin-top: 60px;
     color: var(--limon);
     font-weight: 400;
@@ -393,6 +394,3 @@ body {
     color: #fff;
     font-size: 13px;
 }
-
-
-.introducing__exits {}
