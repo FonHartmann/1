@@ -177,6 +177,7 @@ body {
 .introducing {
     padding-top: 159px;
     background: var(--dark-green);
+    height: 1089px;
 }
 
 .introducing__column {
@@ -222,11 +223,12 @@ body {
 .introducing__plate {
     display: flex;
     justify-content: space-between;
-    column-gap: 32px;
+    /* column-gap: 32px; */
     margin-top: 60px;
     color: var(--limon);
     font-weight: 400;
     font-size: 29px;
+    height: 430px;
 }
 
 /* REFERENCE */
@@ -234,7 +236,6 @@ body {
     position: relative;
     background-color: var(--green);
     width: 380px;
-    height: 430px;
     border-radius: 4px;
     padding: 239px 32px;
 }
@@ -281,7 +282,6 @@ body {
     position: relative;
     background-color: var(--green);
     width: 380px;
-    height: 430px;
     border-radius: 4px;
     padding: 206px 32px;
 }
@@ -346,7 +346,6 @@ body {
     position: relative;
     background-color: var(--green);
     width: 380px;
-    height: 430px;
     border-radius: 4px;
     padding: 206px 32px;
 }
