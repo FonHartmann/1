@@ -8,7 +8,7 @@
     --green: rgba(22, 64, 56, 1);
     --black: rgba(51, 51, 51, 1);
 
-    --conteiner-padding: 40px;
+    --conteiner-padding: 35px;
     --conteiner-width: 1240px;
 
 }
@@ -179,14 +179,16 @@ body {
     background: var(--dark-green);
 }
 
-.introducing__colum {
+.introducing__column {
     display: flex;
     column-gap: 273px;
 }
 
+/* introducing title */
 .introducing__title {
+
     color: #fff;
-    width: 345px;
+    width: 350px;
 }
 
 .introducing__title h1 {
@@ -199,6 +201,7 @@ body {
     font-size: 42px;
 }
 
+/* introducing__text */
 .introducing__text {
     color: #fff;
     font-weight: 400;
@@ -216,17 +219,58 @@ body {
     margin-bottom: 29px;
 }
 
-.introducing__convenient {
-    color: #fff;
+.introducing__plate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: var(--limon);
+    font-weight: 400;
+    font-size: 29px;
 }
 
-.introducing__secure {}
+.introducing__reference {
+    position: relative;
+    background-color: var(--green);
+    width: 380px;
+    height: 430px;
+    border-radius: 4px;
+    padding: 239px 32px;
+    }
+.introducing__reference::before{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 32px;
+    top: 32px;
+    width: 64px;
+    height: 64px;
+    z-index: 1;
+    background-image: url(./../img/introduce/1.svg);
+}
 
+.introducing__reference h1 {
+    color: #fff;
+    font-size: 22px;
+}
 
+.introducing__reference span {
+    display: block;
+    position: absolute;
+    font-size: 32px;
+    color: #fff;
+    left: 130px;
+    top: 264px;
 
-.introducing__plate {}
+}
 
-.introducing__reference {}
+.introducing__reference h2 {
+    margin-top: 49px;
+    width: 290px;
+    height: 63px;
+
+    color: #fff;
+    font-size: 13px;
+}
 
 .introducing__pulse {}
 
