@@ -228,6 +228,7 @@ body {
     font-size: 29px;
 }
 
+/* REFERENCE */
 .introducing__reference {
     position: relative;
     background-color: var(--green);
@@ -235,8 +236,9 @@ body {
     height: 430px;
     border-radius: 4px;
     padding: 239px 32px;
-    }
-.introducing__reference::before{
+}
+
+.introducing__reference::before {
     content: "";
     position: absolute;
     display: block;
@@ -244,13 +246,13 @@ body {
     top: 32px;
     width: 64px;
     height: 64px;
-    z-index: 1;
     background-image: url(./../img/introduce/1.svg);
 }
 
 .introducing__reference h1 {
     color: #fff;
     font-size: 22px;
+    margin-bottom: 13px;
 }
 
 .introducing__reference span {
@@ -259,7 +261,7 @@ body {
     font-size: 32px;
     color: #fff;
     left: 130px;
-    top: 264px;
+    top: 276px;
 
 }
 
@@ -272,6 +274,125 @@ body {
     font-size: 13px;
 }
 
-.introducing__pulse {}
+/* PULSE */
+
+.introducing__pulse {
+    position: relative;
+    background-color: var(--green);
+    width: 380px;
+    height: 430px;
+    border-radius: 4px;
+    padding: 206px 32px;
+}
+
+.introducing__pulse::before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 32px;
+    top: 32px;
+    width: 64px;
+    height: 64px;
+
+    background-image: url(./../img/introduce/2.svg);
+}
+
+.introducing__pulse::after {
+    content: "Coming soon";
+    position: absolute;
+    display: block;
+    left: 90px;
+    top: 209px;
+    width: 72px;
+    height: 20px;
+    font-size: 10px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+
+    padding: 2px 4px;
+    text-align: center;
+}
+
+.introducing__pulse h1 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+.introducing__pulse span {
+    display: block;
+    position: absolute;
+    font-size: 32px;
+    color: #fff;
+    left: 126px;
+    top: 242px;
+
+}
+
+.introducing__pulse h2 {
+    margin-top: 55px;
+    width: 290px;
+    height: 63px;
+
+    color: #fff;
+    font-size: 13px;
+}
+
+/* PULSE */
+
+.introducing__exits  {
+    position: relative;
+    background-color: var(--green);
+    width: 380px;
+    height: 430px;
+    border-radius: 4px;
+    padding: 206px 32px;
+}
+
+.introducing__exits ::before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 32px;
+    top: 32px;
+    width: 64px;
+    height: 64px;
+
+    background-image: url(./../img/introduce/3.svg);
+}
+
+.introducing__exits ::after {
+    content: "New";
+    position: absolute;
+    display: block;
+    left: 84px;
+    top: 209px;
+    width: 30px;
+    height: 20px;
+    font-size: 11px;
+    color: var(--green);
+    background: var(--limon);
+    border-radius: 2px;
+
+    padding: 2px 4px;
+    text-align: center;
+}
+
+.introducing__exits h1 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+.introducing__exits h2 {
+    margin-top: 55px;
+    width: 290px;
+    height: 63px;
+
+    color: #fff;
+    font-size: 13px;
+}
+
 
 .introducing__exits {}
