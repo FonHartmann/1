@@ -176,18 +176,73 @@ body {
 /* INTRODUCING */
 .introducing {
     padding-top: 159px;
-    background:var(--dark-green);
+    background: var(--dark-green);
+}
+
+.introducing__colum {
+    display: flex;
+    column-gap: 273px;
 }
 
 .introducing__title {
+    color: #fff;
+    width: 345px;
 }
+
+.introducing__title h1 {
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.introducing__title h2 {
+    font-weight: 400;
+    font-size: 42px;
+}
+
 .introducing__text {
+    color: #fff;
 }
-.introducing__plate {
+
+.introducing__simple h1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--limon);
+    margin-bottom: 16px;
 }
-.introducing__reference {
+
+.introducing__simple h2 {
+    width: 576px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 29px;
 }
-.introducing__pulse {
+
+.introducing__convenient {color: #fff;
 }
-.introducing__exits {
+.introducing__convenient h1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--limon);
+    margin-bottom: 16px;
 }
+
+.introducing__convenient h2 {
+    width: 576px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 29px;
+}
+
+
+.introducing__secure {
+}
+
+
+
+.introducing__plate {}
+
+.introducing__reference {}
+
+.introducing__pulse {}
+
+.introducing__exits {}
