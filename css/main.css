@@ -171,3 +171,23 @@ body {
     background-color: var(--limon);
     color: var(--dark-green) !important;
 }
+
+
+/* INTRODUCING */
+.introducing {
+    padding-top: 159px;
+    background:var(--dark-green);
+}
+
+.introducing__title {
+}
+.introducing__text {
+}
+.introducing__plate {
+}
+.introducing__reference {
+}
+.introducing__pulse {
+}
+.introducing__exits {
+}
