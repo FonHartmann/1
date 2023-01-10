@@ -201,41 +201,26 @@ body {
 
 .introducing__text {
     color: #fff;
+    font-weight: 400;
 }
 
-.introducing__simple h1 {
-    font-weight: 400;
+.introducing__text h1 {
     font-size: 20px;
     color: var(--limon);
     margin-bottom: 16px;
 }
 
-.introducing__simple h2 {
+.introducing__text h2 {
     width: 576px;
-    font-weight: 400;
     font-size: 16px;
     margin-bottom: 29px;
 }
 
-.introducing__convenient {color: #fff;
-}
-.introducing__convenient h1 {
-    font-weight: 400;
-    font-size: 20px;
-    color: var(--limon);
-    margin-bottom: 16px;
+.introducing__convenient {
+    color: #fff;
 }
 
-.introducing__convenient h2 {
-    width: 576px;
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 29px;
-}
-
-
-.introducing__secure {
-}
+.introducing__secure {}
 
 
 
