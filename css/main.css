@@ -90,6 +90,9 @@ body {
     column-gap: 16px;
     align-items: center;
 }
+.nav_login a {
+    color: var(--black);
+}
 
 /* BUtton */
 .btn {
@@ -178,6 +181,7 @@ body {
     padding-top: 159px;
     background: var(--dark-green);
     height: 1089px;
+
 }
 
 .introducing__column {
@@ -350,7 +354,7 @@ body {
     padding: 206px 32px;
 }
 
-.introducing__exits ::before {
+.introducing__exits::before {
     content: "";
     position: absolute;
     display: block;
@@ -362,7 +366,7 @@ body {
     background-image: url(./../img/introduce/3.svg);
 }
 
-.introducing__exits ::after {
+.introducing__exits::after {
     content: "New";
     position: absolute;
     display: block;
@@ -374,7 +378,6 @@ body {
     color: var(--green);
     background: var(--limon);
     border-radius: 2px;
-
     padding: 2px 4px;
     text-align: center;
 }
