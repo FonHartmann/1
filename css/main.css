@@ -314,7 +314,7 @@ body {
     text-align: center;
 }
 
-/* PULSE */
+/* EXITS */
 
 .introducing__exits::before {
     content: "";
@@ -350,6 +350,7 @@ body {
     padding-top: 179px;
     text-align: center;
     color: var(--black);
+    margin-bottom: 109px;
 }
 
 .platform h1 {
