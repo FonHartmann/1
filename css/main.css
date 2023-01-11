@@ -90,6 +90,7 @@ body {
     column-gap: 16px;
     align-items: center;
 }
+
 .nav_login a {
     color: var(--black);
 }
@@ -342,4 +343,3 @@ body {
     padding: 2px 4px;
     text-align: center;
 }
-
