@@ -343,3 +343,28 @@ body {
     padding: 2px 4px;
     text-align: center;
 }
+
+/* Platform */
+.platform {
+    background-color: #fff;
+    padding-top: 179px;
+    text-align: center;
+    color: var(--black);
+}
+
+.platform h1 {
+    margin-bottom: 15px;
+    font-size: 20px;
+
+}
+
+.platform h2 {
+    margin-bottom: 79px;
+    font-size: 38px;
+
+}
+
+.platform__img {
+    filter: drop-shadow(1px 1px 32px rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+}
