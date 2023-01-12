@@ -408,9 +408,10 @@ body {
 /* section   CHECKS */
 .checks {
     display: block;
+    margin-bottom: 38px;
 }
 
-.checks--container {
+.checks--container1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -419,13 +420,14 @@ body {
     border-radius: 4px;
     height: 455px;
     padding: 0px 64px;
+    margin-bottom: 32px;
 }
 
 .checks__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    column-gap: 20px;
+    /* column-gap: 20px; */
     width: 391px;
 
 }
@@ -445,6 +447,7 @@ body {
     font-size: 16px;
     margin-bottom: 36px;
 }
+
 .checks--btn {
 
     width: 129px;
@@ -456,6 +459,66 @@ body {
     background-color: var(--limon);
     color: var(--dark-green) !important;
 }
-.checks__img{
+
+.checks__img {
     pointer-events: none;
+}
+
+.checks--container2 {
+    display: flex;
+    column-gap: 32px;
+    padding: 0px;
+
+}
+
+.checks__card {
+    width: 586px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    padding-left: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.checks__card__title {
+    font-size: 21px;
+    margin-bottom: 8px;
+
+}
+
+.checks__card__main {
+    max-width: 503px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.checks__card__other {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+/* TEAMS */
+.container--teams {
+    padding: 0;
+}
+
+.teams {
+    margin-top: 100px;
+}
+
+.teams__content {
+    display: flex;
+    justify-content: space-between;
+
+    column-gap: 137px;
+}
+
+.teams__text {}
+
+.teams__text__other {
+    font-size: 14px;
+    margin-bottom: 35px;
 }
