@@ -12,6 +12,9 @@
     --container-width: 1240px;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-weight: 400;
@@ -85,13 +88,13 @@ body {
     background: var(--green);
 }
 
-.nav_login {
+.nav__login {
     display: flex;
     column-gap: 16px;
     align-items: center;
 }
 
-.nav_login a {
+.nav__login a {
     color: var(--black);
 }
 
@@ -130,24 +133,24 @@ body {
     color: #fff;
 }
 
-.header_container {
+.header__container {
     max-width: 657px;
     margin-left: 38px;
 
 }
 
-.header_title {
+.header__title {
 
     font-size: 64px;
     margin-bottom: 17px;
 
 }
 
-.header_text {
+.header__text {
     font-size: 17px;
 }
 
-.header_login {
+.header__login {
     margin-top: 64px;
     column-gap: 20px;
 
@@ -156,7 +159,7 @@ body {
 
 }
 
-.header_request {
+.header__request {
     color: inherit;
     font-size: 14px;
 }
@@ -249,16 +252,16 @@ body {
     margin-bottom: 20px;
 }
 
-.introducing_plate__keytext {
+.introducing__plate__keytext {
     font-size: 29px;
 }
 
-.introducing_plate__sctext {
+.introducing__plate__sctext {
     font-size: 32px;
     color: #fff;
 }
 
-.introducing_plate__explanation {
+.introducing__plate__explanation {
     margin-right: 40px;
     /* width: 290px;
     height: 63px; */
@@ -516,7 +519,9 @@ body {
     column-gap: 137px;
 }
 
-.teams__text {}
+.teams__text { 
+
+}
 
 .teams__text__other {
     font-size: 14px;
